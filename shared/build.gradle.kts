@@ -26,10 +26,17 @@ kotlin {
     sourceSets {
         commonMain.dependencies {
             //put your multiplatform dependencies here
+            //implementation("com.squareup.sqldelight:runtime:1.5.3")
+            implementation("org.jetbrains.kotlinx:kotlinx-datetime:0.4.0")
         }
         commonTest.dependencies {
             implementation(libs.kotlin.test)
         }
+
+        androidMain.dependencies {
+
+        }
+
     }
 }
 
