@@ -36,6 +36,10 @@ kotlin {
         androidMain.dependencies {
 
         }
+        
+        iosMain.dependencies {
+
+        }
 
     }
 }
